@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plantation Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #f1f8e9;
+            color: #23452b;
+        }
+        header {
+            background: #246b35;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }
+        nav {
+            background: #174b27;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 12px;
+            text-decoration: none;
+        }
+        section {
+            padding: 25px;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+        }
+        footer {
+            background: #174b27;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🌱 Green Earth Plantation Project</h1>
+    <p>Let's Make Our Earth Green!</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#activities">Activities</a>
+    <a href="#gallery">Photos</a>
+</nav>
+
+<section id="about">
+    <h2>About Our Project</h2>
+    <p>Our mission is to plant trees, protect nature
+    and create a greener environment for future generations.</p>
+</section>
+
+<section id="activities">
+    <h2>Our Achievements</h2>
+    <div class="card">
+        <h2>🌳 500+</h2>
+        Trees Planted
+        <h2>👨‍👩‍👧 50+</h2>
+        Volunteers
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Plantation Photo Gallery</h2>
+    <div class="gallery">
+        <img src="photos/photo1.jpg" alt="Plantation activity">
+        <img src="photos/photo2.jpg" alt="Tree planting">
+        <img src="photos/photo3.jpg" alt="Volunteers">
+    </div>
+</section>
+
+<footer>
+    <p>Green Earth Plantation Project © 2026</p>
+</footer>
+
+</body>
+</html>
